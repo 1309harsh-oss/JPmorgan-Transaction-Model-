@@ -182,3 +182,10 @@ Represents an incentive amount returned by an external incentive service.
 - **Missing Kafka listener**: The project includes `Transaction.java` as a DTO for incoming messages, but no `@KafkaListener` component is present in the uploaded source. A transaction processor component is likely needed to consume messages and apply balance updates.
 
 - **`float` for monetary values**: Using `float` for financial amounts can introduce precision errors. Consider migrating to `BigDecimal` for production use.
+
+
+  ## Copyright
+
+© 2026 Harsh Thakur. All Rights Reserved.
+
+This project is proprietary and may not be copied, modified, distributed, or used without explicit permission from the author.
